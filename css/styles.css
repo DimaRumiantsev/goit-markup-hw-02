@@ -25,6 +25,7 @@ body {
 
 /*=============HEADER=============*/
 .logo{
+font-family: 'Raleway', sans-serif;
 text-decoration: none;
 font-weight: 700;
 font-size: 26px;
@@ -49,7 +50,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
-color:var(--fon-color);
+color:var(--coment-color);
 }
 
 .menu-link:hover,
@@ -69,6 +70,7 @@ color:var(--coment-color);
 color:var(--fon-color);
 }
 
+
 /*===========/HEADER===========*/
 
 /*==========MAIN===========*/
@@ -84,14 +86,6 @@ text-transform: uppercase;
 color:var(--title-color)
 }
 
-.menu-link{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color:var(--tekst-color);
-}
 .current{
     color: var(--fon-color);
 }
@@ -100,6 +94,7 @@ color:var(--tekst-color);
 }
 
 .modal-btn{
+    font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -129,7 +124,6 @@ color:var(--tekst-color)
 }
 
 .section-description{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -159,7 +153,6 @@ font-weight: 500;
     color: var(--tekst-color);
 }
 .job-title{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -186,15 +179,13 @@ font-weight: 500;
 
 .address-information{
     font-style: normal;
-    font-weight: 400;
-    line-height: 1,71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--title-color);    
 }
 
 .contact-information{
     font-style: normal;
-    font-weight: 400;
     line-height: 1,71px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -242,7 +233,6 @@ background: #2196f3;
 }
 
 .portfolio-direction {
-    font-weight: 400;
     font-size: 16px;
     line-height:1,88px;
     letter-spacing: 0.03em;
