@@ -50,7 +50,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 cursor: pointer;
-color:var(--coment-color);
+color:var(--tekst-color);
 }
 
 .menu-link:hover,
@@ -69,6 +69,18 @@ color:var(--coment-color);
 .phone-number:focus{
 color:var(--fon-color);
 }
+.menu-mail{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color:var(--coment-color);
+}
+.menu-mail:hover,
+.menu-mail:focus{
+color: var(--fon-color);
+}
+
 
 
 /*===========/HEADER===========*/
@@ -186,7 +198,7 @@ font-weight: 500;
 
 .contact-information{
     font-style: normal;
-    line-height: 1,71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
